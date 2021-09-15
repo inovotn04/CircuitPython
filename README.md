@@ -41,8 +41,9 @@ while True:
 
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+![Look at it go!! So many random colors...](https://github.com/jmuss07/Circuit-Python/blob/main/Images/Random_Color.gif?raw=true)
 
+image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
 Twas' but making a neopixel blink, no challenges were encountered. Just turn down the brightness so it doesn't burn out.
