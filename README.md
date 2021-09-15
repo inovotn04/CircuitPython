@@ -88,7 +88,7 @@ while True:
 ### Wiring
 
 ### Reflection
-
+Had some trouble in regards to code, don't remember what I did exactly to fix it, but just using previous servo code worked, just make sure to reuse code to prevent further problems.
 
 
 
