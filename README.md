@@ -16,20 +16,36 @@ Description goes here
 Here's how you make code look like code:
 
 ```python
-Code goes here
 
+import board
+import neopixel
+import time
+import random
+
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+
+randvalue1 = 0
+randvalue2 = 0
+randvalue3 = 0
+
+print("Make it red!")
+dot.brightness = 0.1
+while True:
+    dot.fill((randvalue1, randvalue2, randvalue3))
+    randvalue1 = random.randint(0, 255)
+    randvalue2 = random.randint(0, 255)
+    randvalue3 = random.randint(0, 255)
+    print(randvalue1, randvalue2, randvalue3)
+    time.sleep(1)
 ```
 
 
 ### Evidence
 Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
 
-### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
+Twas' but making a neopixel blink, no challenges were encountered. Just turn down the brightness so it doesn't burn out.
 
 
 
