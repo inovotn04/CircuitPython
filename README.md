@@ -39,6 +39,9 @@ Twas' but making a neopixel blink, no challenges were encountered. Just turn dow
 Makes a 180 degree micro servo move in different directions based on interacting with wires connected to different ports. Uses the 
 ```python
 touchio
+```
+and
+```python
 servo
 ```
 libraries which allow you to take input from interactions with the input ports, and of course move the servo. Here's a sample of the kinda most vital part of code:
