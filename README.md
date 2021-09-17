@@ -11,7 +11,7 @@
 ## Hello_CircuitPython
 
 ### Description & Code
-Makes the on-board neopixel on the metro express blink, in my case, blink different, random, colours. I used a bunch of random values between 0, 255 to control each of the colour values with integers hooked up to the 
+Makes the on-board neopixel on the metro express blink, in my case, blink different, random, colours. I used a bunch of random values between 0, 255 to control each of the colour values with integers hooked up to 
 
 ```python
 random.randint(0, 255)
