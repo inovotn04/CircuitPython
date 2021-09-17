@@ -68,6 +68,9 @@ while True:
 ![Silly Servos](https://github.com/inovotn04/CircuitPython/blob/main/Images/CapacitivePic1.jpg?raw=true)
 ![Wow such servo such capacitive touch](https://github.com/inovotn04/CircuitPython/blob/main/Images/CapacitivePic2.jpg?raw=true)
 ### Wiring
+![Simple servo wiring!](https://github.com/jmuss07/Circuit-Python/blob/main/Images/servo.png?raw=true)
+
+image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
 Had some trouble in regards to code, don't remember what I did exactly to fix it, but just using previous servo code worked, just make sure to reuse code to prevent further problems.
