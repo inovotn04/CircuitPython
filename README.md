@@ -11,34 +11,17 @@
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
-
-Here's how you make code look like code:
+Makes the on-board neopixel on the metro express blink, in my case, blink different, random, colours. I used a bunch of random values between 0, 255 to control each of the colour values with integers hooked up to the 
 
 ```python
-
-import board
-import neopixel
-import time
-import random
-
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-
-randvalue1 = 0
-randvalue2 = 0
-randvalue3 = 0
-
-print("Make it red!")
-dot.brightness = 0.1
-while True:
-    dot.fill((randvalue1, randvalue2, randvalue3))
-    randvalue1 = random.randint(0, 255)
-    randvalue2 = random.randint(0, 255)
-    randvalue3 = random.randint(0, 255)
-    print(randvalue1, randvalue2, randvalue3)
-    time.sleep(1)
+random.randint(0, 255)
 ```
-
+command.
+Also it should be noted I turned down the brightness with 
+```python
+dot.brightness = 0.1
+```
+so it was a little less blinding and less likely to burn out. Other than that, it was basically the same as coding an off-board LED on an arduino, except with specific colour values and mildly different code.
 
 ### Evidence
 ![Look at it go!! So many random colors...](https://github.com/jmuss07/Circuit-Python/blob/main/Images/Random_Color.gif?raw=true)
