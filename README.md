@@ -16,7 +16,6 @@ Makes the on-board neopixel on the metro express blink, in my case, blink differ
 ```python
 random.randint(0, 255)
 ```
-command.
 Also it should be noted I turned down the brightness with 
 ```python
 dot.brightness = 0.1
