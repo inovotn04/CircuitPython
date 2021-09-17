@@ -11,38 +11,21 @@
 ## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
-
-Here's how you make code look like code:
+Makes the on-board neopixel on the metro express blink, in my case, blink different, random, colours. I used a bunch of random values between 0, 255 to control each of the colour values with integers hooked up to 
 
 ```python
-
-import board
-import neopixel
-import time
-import random
-
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-
-randvalue1 = 0
-randvalue2 = 0
-randvalue3 = 0
-
-print("Make it red!")
-dot.brightness = 0.1
-while True:
-    dot.fill((randvalue1, randvalue2, randvalue3))
-    randvalue1 = random.randint(0, 255)
-    randvalue2 = random.randint(0, 255)
-    randvalue3 = random.randint(0, 255)
-    print(randvalue1, randvalue2, randvalue3)
-    time.sleep(1)
+random.randint(0, 255)
 ```
-
+Also it should be noted I turned down the brightness with 
+```python
+dot.brightness = 0.1
+```
+so it was a little less blinding and less likely to burn out. Other than that, it was basically the same as coding an off-board LED on an arduino, except with specific colour values and mildly different code.
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+![Look at it go!! So many random colors...](https://github.com/jmuss07/Circuit-Python/blob/main/Images/Random_Color.gif?raw=true)
 
+image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
 Twas' but making a neopixel blink, no challenges were encountered. Just turn down the brightness so it doesn't burn out.
@@ -53,18 +36,26 @@ Twas' but making a neopixel blink, no challenges were encountered. Just turn dow
 ## CircuitPython_Servo
 
 ### Description & Code
-
+Makes a 180 degree micro servo move in different directions based on interacting with wires connected to different ports. Uses the 'touchio' and 'servo' libraries which allow you to take input from interactions with the input ports, and of course move the servo. Here's a sample of the kinda most vital part of code:
 ```python
-Code goes here
-
+while True:
+    if touchA3.value:
+        print("A3 Touch")
+        for angle in range(0, 180, 5):
+            my_servo.angle = angle
+        time.sleep(0.3)
 ```
 
 ### Evidence
-
+![Silly Servos](https://github.com/inovotn04/CircuitPython/blob/main/Images/CapacitivePic1.jpg?raw=true)
+![Wow such servo such capacitive touch](https://github.com/inovotn04/CircuitPython/blob/main/Images/CapacitivePic2.jpg?raw=true)
 ### Wiring
+![Simple servo wiring!](https://github.com/jmuss07/Circuit-Python/blob/main/Images/servo.png?raw=true)
+
+image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
-
+Had some trouble in regards to code, don't remember what I did exactly to fix it, but just using previous servo code worked, just make sure to reuse code to prevent further problems.
 
 
 
