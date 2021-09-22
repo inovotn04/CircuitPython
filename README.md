@@ -71,7 +71,7 @@ distance = sonar.distance
 ```
 which is remarkably easy.
 ### Evidence
-![Gross Little GIF](https://github.com/inovotn04/CircuitPython/blob/main/Images/DistanceSensorEvidence?raw=true)
+![Gross Little GIF](https://github.com/inovotn04/CircuitPython/blob/main/Images/DistanceSensorEvidence.gif?raw=true)
 ### Wiring
 
 ### Reflection
