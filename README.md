@@ -78,7 +78,7 @@ which is remarkably easy.
 DEFINITELY had some problems with this one. For the whole time my code was being frustrating and it would stop working every time that I actually got a distance value. It took a lot of skillful use of the serial monitor using the "print" function in order to deduce exactly what was wrong with it. In the end the main problem I was having is that most of the RGB values returned a 'float' value instead of an integer (the numbers had decimals in them) and apparently the neopixel does not work with float values. All it took was adding that little 'int' at the front of the line of code which translated the distance into RGB to fix it.
 P.S. also make sure your 
 ```python
-dot.fill
+dot.fill((value))
 ``` 
 has two parentheses in it.
 
