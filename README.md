@@ -58,6 +58,32 @@ image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 Had some trouble in regards to code, don't remember what I did exactly to fix it, but just using previous servo code worked, just make sure to reuse code to prevent further problems.
 
 
+## CircuitPython Distance Sensor
+
+### Description & Code
+Uses the HCSR04 to find the distance and translate said distance to an RGB value on the neopixel. I used the "map" function from the simpleio library to translate it into an RGB value:
+```python
+red = int(simpleio.map_range(distance, 5, 20, 255, 0))
+```
+Otherwise the code is pretty much a matter of coordinating all those values, and getting the distance with
+```python
+distance = sonar.distance
+```
+which is remarkably easy.
+### Evidence
+
+### Wiring
+
+### Reflection
+DEFINITELY had some problems with this one. For the whole time my code was being frustrating and it would stop working every time that I actually got a distance value. It took a lot of skillful use of the serial monitor using the "print" function in order to deduce exactly what was wrong with it. In the end the main problem I was having is that most of the RGB values returned a 'float' value instead of an integer (the numbers had decimals in them) and apparently the neopixel does not work with float values. All it took was adding that little 'int' at the front of the line of code which translated the distance into RGB to fix it.
+P.S. also make sure your 
+```python
+dot.fill((value))
+``` 
+has two parentheses in it.
+
+
+
 
 ## CircuitPython_LCD
 
