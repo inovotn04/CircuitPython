@@ -71,9 +71,10 @@ distance = sonar.distance
 ```
 which is remarkably easy.
 ### Evidence
-
+![Gross Little GIF](https://github.com/inovotn04/CircuitPython/blob/main/Images/DistanceSensorEvidence.gif?raw=true)
 ### Wiring
-
+<img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/UltraSonicSensor%20wiring.PNG?raw=true" width="400">
+Image credit goes to [Benton House](https://github.com/Jhouse53/CircuitPython)
 ### Reflection
 DEFINITELY had some problems with this one. For the whole time my code was being frustrating and it would stop working every time that I actually got a distance value. It took a lot of skillful use of the serial monitor using the "print" function in order to deduce exactly what was wrong with it. In the end the main problem I was having is that most of the RGB values returned a 'float' value instead of an integer (the numbers had decimals in them) and apparently the neopixel does not work with float values. All it took was adding that little 'int' at the front of the line of code which translated the distance into RGB to fix it.
 P.S. also make sure your 
@@ -83,6 +84,19 @@ dot.fill((value))
 has two parentheses in it.
 
 
+## CircuitPython Photointerrupter
+
+### Description & Code
+Thank you [Ghislain Ventre](https://github.com/gventre04/CircuitPython/blob/master/photointerrupter.py) on github for the code. Had to be adapted a bit though, as it's rather outdated and not perfect for the assignment.
+Uses a counter and if statements as opposed to time.sleep so a photointerrupter is able to count the amount of times it has been interrupted, while still having the same effect as a delay.
+
+### Evidence
+
+
+### Wiring
+
+
+### Reflection
 
 
 ## CircuitPython_LCD
