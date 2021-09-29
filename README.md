@@ -89,6 +89,15 @@ has two parentheses in it.
 ### Description & Code
 Thank you [Ghislain Ventre](https://github.com/gventre04/CircuitPython/blob/master/photointerrupter.py) on github for the code. Had to be adapted a bit though, as it's rather outdated and not perfect for the assignment.
 Uses a counter and if statements as opposed to time.sleep so a photointerrupter is able to count the amount of times it has been interrupted, while still having the same effect as a delay.
+```python
+start = time.time()
+while True:
+    photo = interrupter.value
+    if photo and not state:
+            counter += 1
+    state = photo
+    ```
+    This code looks real nice doesn't it
 
 ### Evidence
 
