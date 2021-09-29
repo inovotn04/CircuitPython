@@ -96,7 +96,7 @@ while True:
     if photo and not state:
             counter += 1
     state = photo
-    ```
+```
     This code looks real nice doesn't it
 
 ### Evidence
