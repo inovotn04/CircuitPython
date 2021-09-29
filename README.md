@@ -97,7 +97,7 @@ while True:
             counter += 1
     state = photo
 ```
-    This code looks real nice doesn't it
+This code looks real nice doesn't it
 
 ### Evidence
 
