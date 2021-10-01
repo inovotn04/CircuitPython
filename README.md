@@ -100,13 +100,13 @@ while True:
 This code looks real nice doesn't it
 
 ### Evidence
-
+![PhotoPain](https://github.com/inovotn04/CircuitPython/blob/main/Images/PhotoInterrupterGIF.gif?raw=true)
 
 ### Wiring
 
 
 ### Reflection
-
+Biggest lesson learned from this is that life is much easier when using other people's code. Not only did it save me a lot of time but simply seeing the code helped me understand how it was used. Make sure you don't mess up your photointerrupter wiring though.
 
 ## CircuitPython_LCD
 
