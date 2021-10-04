@@ -4,6 +4,7 @@
 * [Table of Contents](#TableOfContents)
 * [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
+* [CircuitPython Photointerrupter](#CircuitPython_Photointerrupter)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
@@ -84,7 +85,7 @@ dot.fill((value))
 has two parentheses in it.
 
 
-## CircuitPython Photointerrupter
+## CircuitPython_Photointerrupter
 
 ### Description & Code
 Thank you [Ghislain Ventre](https://github.com/gventre04/CircuitPython/blob/master/photointerrupter.py) on github for the code. Had to be adapted a bit though, as it's rather outdated and not perfect for the assignment.
