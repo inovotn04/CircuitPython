@@ -112,18 +112,32 @@ Biggest lesson learned from this is that life is much easier when using other pe
 ## CircuitPython_LCD
 
 ### Description & Code
-
+Uses a capacitive touch circuit as an input to add to a counter whenever the wire is touched, with it toggling whether it's adding or subtracting with a different wire. Uses an LCD backpack to display the number.
 ```python
-
+if touchA2.value and salad1 == 0:
+        print("A2 Touch")
+        if direction == 1:
+            print(direction)
+            counter += 1
+            lcd.clear()
+            lcd.print(str(counter))
+            lcd.print("\nCounting Up")
+        if direction == 0:
+            print(direction)
+            counter -= 1
+            lcd.clear()
+            lcd.print(str(counter))
+            lcd.print("\nCounting Down")
 
 ```
+As you can see I used a variable named "direction" to toggle whether it counted up or down.
 
 ### Evidence
 ![WOWGIF](https://github.com/inovotn04/CircuitPython/blob/main/Images/LCDGif.gif?raw=true)
 ### Wiring
 
 ### Reflection
-
+The main problem I had was making it so it didn't continue counting if you held it down. I kind of overcomplicated things at first but eventually found a simpler way of doing it. The LCD wiring was a bit annoying to do but turns out you need to wire like 4 different wires so it's pretty easy in the end.
 
 
 
