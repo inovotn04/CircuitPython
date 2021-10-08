@@ -104,7 +104,8 @@ This code looks real nice doesn't it
 ![PhotoPain](https://github.com/inovotn04/CircuitPython/blob/main/Images/PhotoInterrupterGIF.gif?raw=true)
 ![AHHHH](https://github.com/inovotn04/CircuitPython/blob/main/Images/MoreCodeScreenshot.png?raw=true)
 ### Wiring
-
+![Photointerrupter wiring!](https://github.com/jmuss07/Circuit-Python/blob/main/Images/Photointerrupter.PNG?raw=true)
+Wiring diagram credit to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
 Biggest lesson learned from this is that life is much easier when using other people's code. Not only did it save me a lot of time but simply seeing the code helped me understand how it was used. Make sure you don't mess up your photointerrupter wiring though.
