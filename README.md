@@ -102,7 +102,7 @@ This code looks real nice doesn't it
 
 ### Evidence
 ![PhotoPain](https://github.com/inovotn04/CircuitPython/blob/main/Images/PhotoInterrupterGIF.gif?raw=true)
-![AHHHH](https://github.com/inovotn04/CircuitPython/blob/main/Images/MoreCodeScreenshot?raw=true)
+![AHHHH](https://github.com/inovotn04/CircuitPython/blob/main/Images/MoreCodeScreenshot.png?raw=true)
 ### Wiring
 
 
