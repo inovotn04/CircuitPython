@@ -114,12 +114,12 @@ Biggest lesson learned from this is that life is much easier when using other pe
 ### Description & Code
 
 ```python
-Code goes here
+
 
 ```
 
 ### Evidence
-
+![WOWGIF](https://github.com/inovotn04/CircuitPython/blob/main/Images/LCDGif.gif?raw=true)
 ### Wiring
 
 ### Reflection
