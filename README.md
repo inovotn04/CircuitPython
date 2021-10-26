@@ -50,10 +50,13 @@ while True:
 ### Evidence
 ![Silly Servos](https://github.com/inovotn04/CircuitPython/blob/main/Images/CapacitivePic1.jpg?raw=true)
 ![Wow such servo such capacitive touch](https://github.com/inovotn04/CircuitPython/blob/main/Images/CapacitivePic2.jpg?raw=true)
+
+No GIF for this, you can see the angle of the servo change between the pictures.
+
 ### Wiring
 ![Simple servo wiring!](https://github.com/jmuss07/Circuit-Python/blob/main/Images/servo.png?raw=true)
 
-image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
+image credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python) the two wires coming off of the board are the capacitive touch wires.
 
 ### Reflection
 Had some trouble in regards to code, don't remember what I did exactly to fix it, but just using previous servo code worked, just make sure to reuse code to prevent further problems.
@@ -76,6 +79,7 @@ which is remarkably easy.
 ### Wiring
 <img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/UltraSonicSensor%20wiring.PNG?raw=true" width="400">
 Image credit goes to [Benton House](https://github.com/Jhouse53/CircuitPython)
+
 ### Reflection
 DEFINITELY had some problems with this one. For the whole time my code was being frustrating and it would stop working every time that I actually got a distance value. It took a lot of skillful use of the serial monitor using the "print" function in order to deduce exactly what was wrong with it. In the end the main problem I was having is that most of the RGB values returned a 'float' value instead of an integer (the numbers had decimals in them) and apparently the neopixel does not work with float values. All it took was adding that little 'int' at the front of the line of code which translated the distance into RGB to fix it.
 P.S. also make sure your 
