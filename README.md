@@ -109,6 +109,7 @@ This code looks real nice doesn't it
 ![AHHHH](https://github.com/inovotn04/CircuitPython/blob/main/Images/MoreCodeScreenshot.png?raw=true)
 ### Wiring
 ![Photointerrupter wiring!](https://github.com/jmuss07/Circuit-Python/blob/main/Images/Photointerrupter.PNG?raw=true)
+
 Wiring diagram credit to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
